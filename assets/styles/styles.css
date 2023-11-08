@@ -196,9 +196,46 @@
 
 .designers .para {
   margin: 15px;
+  font-size: 12px;
 }
 
 .material-symbols-outlined {
-  font-size: 14px;
+  font-size: 10px;
   margin: 10px;
+}
+
+.testimonials {
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.testimonials h2 {
+  text-align: center;
+}
+
+.green {
+  background-color: #54ea54;
+}
+
+.purple {
+  background-color: #f08cf0;
+}
+
+.blue {
+  background-color: #b1f3f3;
+}
+
+.green,
+.purple,
+.blue {
+width: 80vw;
+border-radius: 20px;
+padding: 20px;
+margin-bottom: 20px;
+margin: 20px auto;
+}
+
+.first-subpart{
+  width: 80vw;
+  margin: 0 auto;
 }
