@@ -107,8 +107,38 @@
   padding-bottom: 10px;
 }
 
+.section__num {
+  font-size: 4px;
+  width: 60px;
+  padding-right: 60px;
+}
+
+.section__texts {
+  font-size: 8px;
+  width: 60px;
+  padding-right: 30px;
+}
+
 .section-two img{
  padding-top: 20px;
  width: 7rem;
  height: 200px;
+}
+
+.division-two {
+  width: 98vw;
+}
+
+.people {
+  display: flex;
+}
+
+.people .onebig-image {
+  max-width: 90vw;
+  display: flex;
+  justify-self: left;
+  flex-direction: column;
+  margin: 10px auto;
+  padding: 10px;
+  border-right: 1px solid #ccc;
 }
