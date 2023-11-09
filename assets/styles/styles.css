@@ -253,15 +253,23 @@ margin: 20px auto;
 
 
 
+
+
 .footer {
-  background-color: #fff;
+  width: 100vw;
+  background-color: #000;
+  border-radius: 10px;
   padding: 20px;
-  border-top: double #808080;
 }
 
+.sub1 h1 {
+  font-size: 20px;
+  color: #fff;
+}
 .footer-column li {
   margin-bottom: 15px;
-  font-size: 7px;
+  font-size: 9px;
+  color: #fff;
 }
 
 .footer-column ul {
