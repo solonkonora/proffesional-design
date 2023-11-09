@@ -1,9 +1,25 @@
-@import url('https://fonts.cdnfonts.com/css/tt-firs-neue-trl');
+@import url("https://fonts.cdnfonts.com/css/tt-firs-neue-trl");
+
+:root {
+  --custom-color: #54ea54;
+  --custom-color-1: #f08cf0;
+  --custom-color-2: #b1f3f3;
+  --custom-color-4: #000000;
+  --custom-color-3: #ffffff;
+}
+
+.my-element {
+  color: var(--custom-color);
+  color: var(--custom-color-1);
+  background-color: var(--custom-color-2);
+  background-color: var(--custom-color-4);
+}
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'TT Firs Neue Trial Var Italic', sans-serif;
+  font-family: "TT Firs Neue Trial Var Italic", sans-serif;
 }
 
 #main {
@@ -44,13 +60,13 @@
 
 .navbar-box2 ul a {
   text-decoration: none;
-  color: #000;
+  color: var(--custom-color-4);
 }
 
 .navbar-box3 li a {
   text-decoration: none;
-  color: #fff;
-  background-color: #54ea54;
+  color: var(--custom-color-3);
+  background-color: var(--custom-color);
   border-radius: 15px;
   padding: 4px;
   margin-right: 10px;
@@ -73,12 +89,12 @@
 
 .section-title {
   font-size: medium;
-  color: white;
+  color: var(--custom-color-3);
   padding-top: 30px;
 }
 
 .section-text {
-  color: #fff;
+  color: var(--custom-color-3);
   font-size: 12px;
   padding-bottom: 10px;
 }
@@ -90,7 +106,7 @@
 }
 
 .button-state-app {
-  background: #54ea54;
+  background: var(--custom-color);
   display: inline-block;
   border-radius: 50px;
   padding: 5px 15px;
@@ -98,13 +114,13 @@
 }
 
 .more {
-  color: #fff;
+  color: var(--custom-color-3);
   font-size: 8px;
 }
 
 .nums-texts {
   display: flex;
-  color: #fff;
+  color: var(--custom-color-3);
   padding-top: 15px;
   justify-content: space-between;
 }
@@ -152,8 +168,8 @@
   left: 25%;
   transform: translate(-50%, -50%);
   text-align: center;
-  color: #000;
-  background-color: #fff;
+  color: var(--custom-color-4);
+  background-color: var(--custom-color-3);
   padding: 10px;
   border-radius: 20px;
 }
@@ -183,7 +199,7 @@
 }
 
 .button-state-more {
-  background: #54ea54;
+  background: var(--custom-color);
   display: inline-block;
   border-radius: 50px;
   padding: 5px 15px;
@@ -198,9 +214,9 @@
 }
 
 .container {
-  margin:auto;
+  margin: auto;
   width: 98vw;
-  background-color: whitesmoke;
+  background-color: #f5f5f5;
 }
 
 .box {
@@ -208,7 +224,7 @@
   align-items: center;
   border: 1px solid #ccc;
   border-radius: 5px;
-  background: #fff;
+  background: var(--custom-color-3);
   margin: 15px auto;
   width: 90vw;
 }
@@ -218,9 +234,9 @@
   align-items: center;
   border: 1px solid #ccc;
   border-radius: 20px;
-  background: #0c0c0c;
+  background: var(--custom-color-4);
   margin: auto;
-  color: #fff;
+  color: var(--custom-color-3);
 }
 
 .help {
@@ -247,11 +263,11 @@
 }
 
 .green {
-  background-color: #54ea54;
+  background-color: var(--custom-color);
 }
 
 .purple {
-  background-color: #f08cf0;
+  background-color: var(--custom-color-1);
 }
 
 .blue {
@@ -284,7 +300,7 @@
 
 .footer {
   width: 98vw;
-  background-color: #000;
+  background-color: var(--custom-color-4);
   border-radius: 10px;
   padding: 20px;
   margin: 0 auto;
@@ -292,13 +308,13 @@
 
 .sub1 h1 {
   font-size: 20px;
-  color: #fff;
+  color: var(--custom-color-3);
 }
 
 .footer-column li {
   margin-bottom: 15px;
   font-size: 9px;
-  color: #fff;
+  color: var(--custom-color-3);
 }
 
 .footer-column ul {
