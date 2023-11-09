@@ -34,6 +34,11 @@
   list-style-type: none;
 }
 
+.footer-column a {
+  color: #333;
+  text-decoration: none;
+}
+
 .navbar-box2 ul a {
   text-decoration: none;
   color: #000;
@@ -114,7 +119,7 @@
   width: 80px;
 }
 
-.section-two img{
+.section-two img {
   padding-top: 20px;
   width: 6rem;
   height: 200px;
@@ -145,7 +150,7 @@
 }
 
 .three-images-h4 {
-  font-size: 14px
+  font-size: 14px;
 }
 
 .button-two {
@@ -247,11 +252,6 @@
 .sub-part {
   padding-left: 20px;
   font-size: 15px;
-}
-
-.footer-column a {
-  color: #333;
-  text-decoration: none;
 }
 
 .footer {
