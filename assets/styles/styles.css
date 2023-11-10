@@ -358,11 +358,6 @@
 }
 
 @media (min-width: 767px) {
-  
-
-
-
- 
 
   .testimonials {
     margin: 0 auto;
@@ -370,6 +365,7 @@
     justify-content: space-between;
     height: 400px;
   }
+
   .big-green,
   .big-purple,
   .big-blue {
@@ -378,11 +374,11 @@
 
   .big-green .testi {
     padding-bottom: 30px;
-   }
+  }
 
-   .green,
-   .purple,
-   .blue {
+  .green,
+  .purple,
+  .blue {
     height: 220px;
-   }
+  }
 }
