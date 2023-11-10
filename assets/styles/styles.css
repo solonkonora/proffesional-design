@@ -335,6 +335,44 @@
   margin-bottom: 10px;
 }
 
+.footer-columns1 {
+  width: inherit;
+  border: 1px solid white;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.playstore h1 {
+  text-align: center;
+  color: var(--primary-color-text);
+}
+
+.playstore p {
+  color: var(--primary-color-text);
+  font-size: 12px;
+}
+
+.store {
+  display: flex;
+  justify-content: space-between;
+}
+
+.playstore-one {
+  display: flex;
+  color: var(--primary-color-text);
+  border: 1px solid white;
+}
+
+.playstore-one .playstore-text h6 {
+  font-size: 10px;
+}
+
+.phone-picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .container-footer {
   width: 100%;
   margin: 0;
