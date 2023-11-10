@@ -6,16 +6,16 @@
 ![testimonials](./assets/readme-images/testimonials.JPG)
 
 3) ## About
-this is website landing page aimed at advertising and making known the wonderful features offered by the AI Ally application
+this is site landing page aimed at advertising and making known the wonderful features offered by the AI Ally application
 
 4) Project Technical.
 ## Built With
-- Html
-- Css
+- HTML
+- CSS
 
 ### Prerequisites
 Knowledge about HTML:
-- Basic html and css syntax
+- Basic HTML and CSS syntax
 - tags
 
 ## Clone project
