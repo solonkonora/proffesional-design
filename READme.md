@@ -1,6 +1,6 @@
-# AI ALLY.
+# AI ALLY
 
-## Project view.
+## Project view
 
 
 ![landing page](./assets/readme-images/hero.JPG)
@@ -10,7 +10,7 @@
 ### About
 this is site landing page aimed at advertising and making known the wonderful features offered by the AI Ally application
 
-### Project Technical.
+### Project Technical
 #### Built With
 - HTML
 - CSS
