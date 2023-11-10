@@ -158,14 +158,18 @@
 
 .try-overlay {
   position: absolute;
-  bottom: 70%;
-  left: 25%;
+  bottom: 75%;
+  left: 15%;
   transform: translate(-50%, -50%);
   text-align: center;
   color: var(--custom-color-4);
   background-color: var(--custom-color-3);
   padding: 5px;
   border-radius: 20px;
+}
+
+.try-overlay p {
+  font-size: 12px;
 }
 
 .three-images-p {
