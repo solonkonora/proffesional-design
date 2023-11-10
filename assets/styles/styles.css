@@ -158,8 +158,8 @@
 
 .try-overlay {
   position: absolute;
-  bottom: 70%;
-  left: 25%;
+  bottom: 75%;
+  left: 15%;
   transform: translate(-50%, -50%);
   text-align: center;
   color: var(--primary-background-color);
@@ -167,6 +167,11 @@
   padding: 5px;
   border-radius: 20px;
 }
+
+.imago .try-overlay .try {
+  font-size: 11px;
+}
+
 
 .three-images-p {
   font-size: 12px;
@@ -338,8 +343,6 @@
 
 .footer-columns1 {
   width: inherit;
-  border: 1px solid white;
-  justify-content: center;
   margin-bottom: 40px;
 }
 
