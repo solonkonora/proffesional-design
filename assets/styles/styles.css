@@ -222,7 +222,7 @@
 }
 
 .designers {
-  width: inherit;
+  width: 90vw;
   align-items: center;
   border: 1px solid #ccc;
   border-radius: 20px;
@@ -355,4 +355,34 @@
 .date {
   font-size: 12px;
   color: #333;
+}
+
+@media (min-width: 767px) {
+  
+
+
+
+ 
+
+  .testimonials {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+  }
+  .big-green,
+  .big-purple,
+  .big-blue {
+    width: 330px;
+  }
+
+  .big-green .testi {
+    padding-bottom: 30px;
+   }
+
+   .green,
+   .purple,
+   .blue {
+    height: 220px;
+   }
 }
