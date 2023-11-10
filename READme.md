@@ -22,7 +22,7 @@ Knowledge about HTML:
 - To get a local copy up and running follow these simple example steps.
 - Clone this repository with
 `https://github.com/solonkonora/proffesional-design.git` using your
-terminal or command line.
+terminal or command-line.
 - Change to the project directory by entering: cd proffesional-design
 in the terminal.
 
