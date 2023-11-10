@@ -1,4 +1,3 @@
-1) Project Name.
 # AI ALLY
 
 2) Project view.
