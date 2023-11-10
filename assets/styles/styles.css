@@ -1,11 +1,11 @@
 @import url("https://fonts.cdnfonts.com/css/tt-firs-neue-trl");
 
 :root {
-  --custom-color: #54ea54;
+  --primary-background-color: #181a1b;
+  --secondary-background-color: #54ea54;
   --custom-color-1: #f08cf0;
   --custom-color-2: #b1f3f3;
-  --custom-color-4: #000;
-  --custom-color-3: #fff;
+  --primary-color-text: #fff;
 }
 
 * {
@@ -54,13 +54,13 @@
 
 .navbar-box2 ul a {
   text-decoration: none;
-  color: var(--custom-color-4);
+  color: var(--primary-background-color);
 }
 
 .navbar-box3 li a {
   text-decoration: none;
-  color: var(--custom-color-3);
-  background-color: var(--custom-color);
+  color: var(--primary-color-text);
+  background-color: var(--secondary-background-color);
   border-radius: 15px;
   padding: 4px;
   margin-right: 10px;
@@ -71,7 +71,7 @@
   display: flex;
   column-gap: 1rem;
   width: 98vw;
-  background-color: #181a1b;
+  background-color: var(--primary-background-color);
   border-radius: 10px;
   margin: 0 auto;
 }
@@ -83,12 +83,12 @@
 
 .section-title {
   font-size: medium;
-  color: var(--custom-color-3);
+  color: var(--primary-color-text);
   padding-top: 30px;
 }
 
 .section-text {
-  color: var(--custom-color-3);
+  color: var(--primary-color-text);
   font-size: 12px;
   padding-bottom: 10px;
 }
@@ -100,7 +100,7 @@
 }
 
 .button-state-app {
-  background: var(--custom-color);
+  background: var(--secondary-background-color);
   display: inline-block;
   border-radius: 50px;
   padding: 5px 15px;
@@ -108,13 +108,13 @@
 }
 
 .more {
-  color: var(--custom-color-3);
+  color: var(--primary-color-text);
   font-size: 8px;
 }
 
 .nums-texts {
   display: flex;
-  color: var(--custom-color-3);
+  color: var(--primary-color-text);
   padding-top: 15px;
   justify-content: space-between;
 }
@@ -158,18 +158,14 @@
 
 .try-overlay {
   position: absolute;
-  bottom: 75%;
-  left: 15%;
+  bottom: 70%;
+  left: 25%;
   transform: translate(-50%, -50%);
   text-align: center;
-  color: var(--custom-color-4);
-  background-color: var(--custom-color-3);
+  color: var(--primary-background-color);
+  background-color: var(--primary-color-text);
   padding: 5px;
   border-radius: 20px;
-}
-
-.try-overlay p {
-  font-size: 12px;
 }
 
 .three-images-p {
@@ -197,7 +193,7 @@
 }
 
 .button-state-more {
-  background: var(--custom-color);
+  background: var(--secondary-background-color);
   display: inline-block;
   border-radius: 50px;
   padding: 5px 15px;
@@ -220,19 +216,19 @@
   align-items: center;
   border: 1px solid #ccc;
   border-radius: 5px;
-  background: var(--custom-color-3);
+  background: var(--primary-color-text);
   margin: 15px auto;
   width: 90vw;
 }
 
 .designers {
-  width: inherit;
+  width: 90vw;
   align-items: center;
   border: 1px solid #ccc;
   border-radius: 20px;
-  background: var(--custom-color-4);
+  background: var(--primary-background-color);
   margin: auto;
-  color: var(--custom-color-3);
+  color: var(--primary-color-text);
 }
 
 .help {
@@ -259,7 +255,7 @@
 }
 
 .green {
-  background-color: var(--custom-color);
+  background-color: var(--secondary-background-color);
 }
 
 .purple {
@@ -296,7 +292,7 @@
 
 .footer {
   width: inherit;
-  background-color: var(--custom-color-4);
+  background-color: var(--primary-background-color);
   border-radius: 10px;
   padding: 20px;
   margin: 0 auto;
@@ -304,19 +300,24 @@
 
 .sub1 h1 {
   font-size: 20px;
-  color: var(--custom-color-3);
+  color: var(--primary-color-text);
 }
 
 .footer-column li {
   margin-bottom: 15px;
   font-size: 9px;
-  color: var(--custom-color-3);
+  color: var(--primary-color-text);
 }
 
 .footer-column ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+.big-footer-col {
+  justify-content: center;
+  align-items: center;
 }
 
 .footer-columns {
