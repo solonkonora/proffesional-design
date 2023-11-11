@@ -199,7 +199,7 @@
 .button-state-more {
   background: var(--secondary-background-color);
   display: inline-block;
-  border-radius: 50px;
+  border-radius: 49px;
   padding: 5px 15px;
   font-size: 8px;
   margin: 0 auto;
