@@ -401,16 +401,20 @@
 }
 
 @media (min-width: 767px) {
+
+
+
   .testimonials {
     display: flex;
-    justify-content: space-between;
     height: 400px;
+    column-gap: 1rem;
   }
-
+  
   .big-green,
   .big-purple,
   .big-blue {
-    width: 330px;
+    flex: 1 0 330px;
+    max-width: 330px;
   }
 
   .big-green .testi {
@@ -423,6 +427,15 @@
     height: 220px;
   }
 
+  .sub1 h1 {
+    font-size: 60px;
+  }
 
+  .footer-column h3,
+  .footer-column li {
+    font-size: 20px;
+  }
+
+ 
 
 }
