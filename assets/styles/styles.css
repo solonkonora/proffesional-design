@@ -338,7 +338,6 @@
 
 .footer-columns1 {
   width: inherit;
-  border: 1px solid white;
   justify-content: center;
   margin-bottom: 40px;
 }
@@ -362,6 +361,7 @@
   display: flex;
   color: var(--primary-color-text);
   border: 1px solid white;
+  background-color: #000;
 }
 
 .playstore-one .playstore-text h6 {
@@ -428,7 +428,7 @@
   }
 
   .sub1 h1 {
-    font-size: 60px;
+    font-size: 45px;
   }
 
   .footer-column h3,
@@ -436,6 +436,59 @@
     font-size: 20px;
   }
 
- 
+  .combi-two {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
 
+  .footer-columns1 {
+    width: 350px;
+    margin-top: 200px;
+    margin-bottom: 1px;
+  }
+
+  .playstore h1 {
+    text-align: start;
+    font-size: 45px;
+    margin-bottom: 20px;
+  }
+
+  .playstore p {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .playstore-one .playstore-text h6 {
+    font-size: 10px;
+  }
+  
+  .phone-picture img{
+    margin-top: 50px;
+    width: 300px;
+    height: 450px;
+  }
+  
+  .date {
+    font-size: 15px;
+    margin-left: 30px;
+    margin-top: 40px;
+  }
+  
+  .social-media ul li {
+    font-size: 15px;
+    padding-right: 30px;
+    margin-top: 40px;
+  }
+  
+  .current-date ul,
+  .social ul li {
+    font-size: 10px;
+    margin: 20px 40px;
+    list-style: none;
+  }
+
+  
+  
 }
