@@ -404,10 +404,45 @@
 
 
 
+
+  
+  .button-state-more {
+    padding: 15px 55px;
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+
+  #form {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f5f5f5;
+    margin: auto;
+  }
+  
+  .phone-pic img {
+    margin: 20px 0 20px 300px
+  }
+  
+  .container {
+    margin: 20px 150px 0 0;
+    width: 40%;
+  }
+  
+  .box,
+  .designers {
+    width: 50%;
+  }
+  
+  .help {
+    margin-left: 15px;
+  }
+
   .testimonials {
     display: flex;
     height: 400px;
     column-gap: 1rem;
+    margin-top: 30px;
   }
   
   .big-green,
@@ -488,7 +523,4 @@
     margin: 20px 40px;
     list-style: none;
   }
-
-  
-  
 }
