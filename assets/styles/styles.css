@@ -17,7 +17,8 @@
 
 .main-content {
   width: 100vw;
-  margin: auto;  justify-content: center;
+  margin: auto;
+  justify-content: center;
   justify-self: center;
   overflow: hidden;
 }
@@ -323,7 +324,6 @@
 .footer-columns {
   display: flex;
   margin-top: 10px;
-  display: flex;
   flex-wrap: wrap;
 }
 
@@ -407,13 +407,6 @@
   padding: 0;
   font-size: 9px;
 }
-
-/* .social ul {
-  display: flex;
-  list-style-type: none;
-  padding: 0;
-  font-size: 9px;
-} */
 
 .current-date {
   font-size: 9px;
