@@ -422,7 +422,7 @@
     height: 100px;
   }
 
- .imago .people {
+  .imago .people {
     width: 22vw;
   }
 
@@ -452,7 +452,7 @@
   }
 
   .phone-pic img {
-    margin: 20px 0 20px 300px
+    margin: 20px 0 20px 300px;
   }
 
   .container {
@@ -530,7 +530,7 @@
     font-size: 10px;
   }
 
-  .phone-picture img{
+  .phone-picture img {
     margin-top: 50px;
     width: 300px;
     height: 450px;
