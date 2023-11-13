@@ -16,8 +16,8 @@
 }
 
 .main-content {
-  width: 100%;
-  margin: 0;
+  width: 100vw;
+  margin: auto;
   justify-content: center;
   justify-self: center;
   overflow: hidden;
@@ -45,6 +45,7 @@
 .navbar li {
   padding: 10px;
   font-size: 20px;
+
   list-style-type: none;
 }
 
@@ -322,8 +323,8 @@
 }
 
 .footer-columns {
-  margin-top: 10px;
   display: flex;
+  margin-top: 10px;
   flex-wrap: wrap;
 }
 
@@ -375,6 +376,16 @@
   align-items: center;
 }
 
+.container-footer1 {
+  width: 100%;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 10px;
+}
+
 .container-footer {
   width: 100%;
   margin: 0;
@@ -385,19 +396,21 @@
   padding: 10px;
 }
 
-.social-media li {
-  margin-right: 10px;
-  font-size: 12px;
+.social-media li,
+.date {
+  font-size: 9px;
 }
 
-.social-media ul {
+.social-media ul,
+.social ul {
   display: flex;
   list-style-type: none;
   padding: 0;
+  font-size: 9px;
 }
 
-.date {
-  font-size: 12px;
+.current-date {
+  font-size: 9px;
   color: #333;
 }
 
