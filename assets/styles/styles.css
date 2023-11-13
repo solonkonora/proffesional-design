@@ -43,8 +43,8 @@
 }
 
 .navbar li {
-  padding: 5px;
-  font-size: 7px;
+  padding: 10px;
+  font-size: 20px;
   list-style-type: none;
 }
 
@@ -411,4 +411,219 @@
 .current-date {
   font-size: 9px;
   color: #333;
+}
+
+@media (min-width: 768px) {
+  .navbar-box1 img {
+    width: 40px;
+    height: auto;
+  }
+
+  .navbar li {
+    font-size: 15px;
+  }
+
+  .division-one .section-one {
+    width: 50vw;
+    margin: 100px 10px 20px 100px;
+  }
+
+  .section-title {
+    font-size: 60px;
+    margin-top: -30px;
+  }
+
+  .section-text {
+    font-size: 16px;
+    width: 30vw;
+  }
+
+  .button {
+    column-gap: 3rem;
+  }
+
+  .button-state-app {
+    font-size: 20px;
+  }
+
+  .more {
+    font-size: 20px;
+  }
+
+  .num-text {
+    font-size: 20px;
+  }
+
+  .section-num {
+    font-size: 30px;
+  }
+
+  .section-texts {
+    font-size: 16px;
+    width: 200px;
+  }
+
+  .nums-texts {
+    width: 30vw;
+  }
+
+  .section-two img {
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+  }
+
+  .three-images-h3 {
+    font-size: 30px;
+    width: 60%;
+    margin-left: 175px;
+  }
+
+  .biggest-three {
+    display: flex;
+    column-gap: 1rem;
+    margin: 0 150px;
+  }
+
+  .division-two {
+    width: 22vw;
+  }
+
+  .three-images-p {
+    font-size: 15px;
+    height: 100px;
+  }
+
+  .imago .people {
+    width: 22vw;
+  }
+
+  .try-overlay {
+    position: absolute;
+    bottom: 70%;
+    left: 20%;
+    padding: 5px;
+  }
+
+  .three-images-h4 {
+    font-size: 20px;
+  }
+
+  .button-state-more {
+    padding: 10px 35px;
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+
+  #form {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f5f5f5;
+    margin: auto;
+  }
+
+  .phone-pic img {
+    margin: 20px 0 20px 300px;
+  }
+
+  .container {
+    margin: 20px 150px 0 0;
+    width: 40%;
+  }
+
+  .box,
+  .designers {
+    width: 50%;
+  }
+
+  .help {
+    margin-left: 15px;
+  }
+
+  .testimonials {
+    display: flex;
+    height: 400px;
+    column-gap: 1rem;
+    margin-top: 30px;
+  }
+
+  .big-green,
+  .big-purple,
+  .big-blue {
+    flex: 1 0 330px;
+    max-width: 330px;
+  }
+
+  .big-green .testi {
+    padding-bottom: 30px;
+  }
+
+  .green,
+  .purple,
+  .blue {
+    height: 220px;
+  }
+
+  .sub1 h1 {
+    font-size: 45px;
+  }
+
+  .footer-column h3,
+  .footer-column li {
+    font-size: 20px;
+  }
+
+  .combi-two {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .footer-columns1 {
+    width: 350px;
+    margin-top: 200px;
+    margin-bottom: 1px;
+  }
+
+  .playstore h1 {
+    text-align: start;
+    font-size: 45px;
+    margin-bottom: 20px;
+  }
+
+  .playstore p {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+
+  .playstore-one .playstore-text h6 {
+    font-size: 10px;
+  }
+
+  .phone-picture img {
+    margin-top: 50px;
+    width: 300px;
+    height: 450px;
+  }
+
+  .date {
+    font-size: 15px;
+    margin-left: 30px;
+    margin-top: 40px;
+  }
+
+  .social-media ul li {
+    font-size: 15px;
+    padding-right: 30px;
+    margin-top: 40px;
+  }
+
+  .current-date ul,
+  .social ul li {
+    font-size: 10px;
+    margin: 20px 40px;
+    list-style: none;
+  }
 }
